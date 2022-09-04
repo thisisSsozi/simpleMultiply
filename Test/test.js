@@ -9,4 +9,7 @@ describe('Simple multiply', ()=>{
     it('Multiplying second test', ()=>{
         assert.equal(multiply(2, 2), 4);
     });
+    it('Multiplying third test', ()=>{
+        assert.equal(multiply(3, 3), 9);
+    });
 })
