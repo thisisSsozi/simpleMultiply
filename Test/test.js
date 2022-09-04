@@ -4,6 +4,6 @@ const multiply = require('../multiply');
 
 describe('Simple multiply', ()=>{
     it('Multiplying first test', ()=>{
-        assertEqual(multiply(1, 1), 1);
+        assert.Equal(multiply(1, 1), 1);
     });
 })
