@@ -6,4 +6,7 @@ describe('Simple multiply', ()=>{
     it('Multiplying first test', ()=>{
         assert.equal(multiply(1, 1), 1);
     });
+    it('Multiplying second test', ()=>{
+        assert.equal(multiply(2, 2), 4);
+    });
 })
